@@ -4,17 +4,27 @@
   "artifacts": {
     "traffic": {
       "title": "Traffic Tycoon",
-      "path": "dist/traffic-tycoon/unity/index.html",
+      "path": "traffic-tycoon/index.html",
       "htmlBytes": 332228,
       "sha256": "a2fa91a7a05cc5a146aeb443c23fd6e124ae28bad88ce6ebbf9b19d45dcb499a",
-      "sizeLabel": "332.2 KB"
+      "sizeLabel": "332.2 KB",
+      "browserCompanion": {
+        "path": "traffic-tycoon/play.html",
+        "htmlBytes": 446751,
+        "sha256": "0b13d2a2ab7005268cad078f46b0cd0ec74e19aee4ce0eb0e9e406e27bac6fbe"
+      }
     },
     "golf": {
       "title": "Mini Golf Challenge",
-      "path": "dist/mini-golf/unity/index.html",
+      "path": "mini-golf/index.html",
       "htmlBytes": 707170,
       "sha256": "b8c49927705d09a4021fda4bfdf598c19d7cdfc4aeed2fecb7827e90f905f10c",
-      "sizeLabel": "707.2 KB"
+      "sizeLabel": "707.2 KB",
+      "browserCompanion": {
+        "path": "mini-golf/play.html",
+        "htmlBytes": 946690,
+        "sha256": "abd82bc581bd0294e087a9e6c9eb9d376ccb7186346f879fe8b545143cfff85f"
+      }
     },
     "beat-market": {
       "title": "Beat the Market",

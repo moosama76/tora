@@ -1,3 +1,6 @@
 
 # Published standalone creatives must retain their exact build hashes.
 /beat-market/*.html -text -whitespace
+
+/traffic-tycoon/*.html -text -whitespace
+/mini-golf/*.html -text -whitespace
