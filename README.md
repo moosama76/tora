@@ -40,3 +40,5 @@ Rebuild in the private engine with `node scripts/beat-market/build-web-preview.m
 All project cards open interactive games. `traffic-tycoon/play.html` and `mini-golf/play.html` supply explicit browser test hosts around exact production exports. Their matching `index.html` files require real hosts. Browser CTA requests are recorded and show a demo message, without opening stores. Videos and the video player have been removed from this website.
 
 Regenerate the two companions in the private engine with `node scripts/build-portfolio-games.mjs`, after verifying the existing production receipts. Copy the generated HTML only; preserve raw SHA identities. This does not establish new device or SDK acceptance.
+
+Live companions present each game in a scaled phone frame. Portrait/Landscape changes the simulated viewport without reloading the game; the back link returns to the showcase. The raw production HTML is unchanged.

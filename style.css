@@ -40,3 +40,12 @@ html{overflow-x:clip}.hero{overflow:visible}.hero-art{right:-3%}.about{overflow:
 .project-market .project-image img{object-fit:contain;object-position:center}
 .project-market:before{content:'your turn to play ↗';position:absolute;right:-130px;top:40%;font:italic 22px Georgia,serif;color:#ffc3b2;transform:rotate(7deg);width:110px}
 @media(max-width:760px){.project-market{width:96%;margin:100px 0 0}.project-market:before{right:5%;top:-49px;width:auto;font-size:17px;transform:rotate(-3deg)}.project-market .project-image{aspect-ratio:4/3}.project-market .project-heading{flex-wrap:wrap;gap:7px}.project-market .project-heading>span{font-size:8px}}
+
+/* An irregular warm-white paper sweep opens the left side of the composition. */
+.hero-copy{isolation:isolate;color:#153d69}
+.hero-copy:before{content:'';position:absolute;z-index:-1;inset:-65px -65px -62px -190px;background:#fff9ed;border-radius:23% 36% 43% 17% / 22% 29% 52% 35%;transform:rotate(-3deg);pointer-events:none}
+.hero-copy h1,.hero-copy .intro,.hero-copy .text-link{color:#153d69}
+.hero-copy .eyebrow{color:#356088}
+.about-art{isolation:isolate}
+.about-art:before{content:'';position:absolute;inset:8% 12% 6% -25%;background:#fff9ed;border-radius:32% 54% 24% 51% / 54% 25% 55% 34%;transform:rotate(-13deg);z-index:-1;pointer-events:none}
+@media(max-width:760px){.hero-copy:before{inset:-33px -15px -35px -90px;border-radius:15% 31% 37% 20% / 22% 24% 36% 26%;transform:rotate(-2deg)}.about-art:before{inset:8% 8% 8% -20%}}
