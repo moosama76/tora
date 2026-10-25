@@ -37,6 +37,6 @@ html{overflow-x:clip}.hero{overflow:visible}.hero-art{right:-3%}.about{overflow:
 /* A live third experience, offset like a page in the sketchbook. */
 .project-market{width:72%;margin:105px 0 0 6%;position:relative}
 .project-market .project-image{background:#ffdd00;transform:rotate(-1.5deg);aspect-ratio:1.3}
-.project-market .project-image img{object-position:50% 48%}
+.project-market .project-image img{object-fit:contain;object-position:center}
 .project-market:before{content:'your turn to play ↗';position:absolute;right:-130px;top:40%;font:italic 22px Georgia,serif;color:#ffc3b2;transform:rotate(7deg);width:110px}
-@media(max-width:760px){.project-market{width:96%;margin:100px 0 0}.project-market:before{right:5%;top:-49px;width:auto;font-size:17px;transform:rotate(-3deg)}.project-market .project-image{aspect-ratio:1.1}.project-market .project-heading{flex-wrap:wrap;gap:7px}.project-market .project-heading>span{font-size:8px}}
+@media(max-width:760px){.project-market{width:96%;margin:100px 0 0}.project-market:before{right:5%;top:-49px;width:auto;font-size:17px;transform:rotate(-3deg)}.project-market .project-image{aspect-ratio:4/3}.project-market .project-heading{flex-wrap:wrap;gap:7px}.project-market .project-heading>span{font-size:8px}}
