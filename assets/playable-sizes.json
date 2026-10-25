@@ -10,8 +10,8 @@
       "sizeLabel": "332.2 KB",
       "browserCompanion": {
         "path": "traffic-tycoon/play.html",
-        "htmlBytes": 450496,
-        "sha256": "88e4f4821282e2f1b03068c3267f8b74cafe809caef05ea153cfbd81dd566a7e"
+        "htmlBytes": 453713,
+        "sha256": "8328c6f9ada781750722a6060d15d42a9034dbdfc1739ba8af3a8ccad4576279"
       }
     },
     "golf": {
@@ -22,8 +22,8 @@
       "sizeLabel": "707.2 KB",
       "browserCompanion": {
         "path": "mini-golf/play.html",
-        "htmlBytes": 950440,
-        "sha256": "156497b1dca49d7e57053f809d7a837e8e737791e24edae0beeae2f8e944260e"
+        "htmlBytes": 953657,
+        "sha256": "4fec2d37b39227cd64b0a45e1a14bff6c1fa83dc70e7f39609d34d29583870c8"
       }
     },
     "beat-market": {
@@ -35,8 +35,8 @@
       "status": "Portfolio concept; not native-approved production",
       "browserCompanion": {
         "path": "beat-market/play.html",
-        "htmlBytes": 385527,
-        "sha256": "b37dcccdc32657949c8381d0468c1a4f9ea52bdfb56a26fde47e8322f7aaf095"
+        "htmlBytes": 388744,
+        "sha256": "862153a684062a4b036127a56eaf039327e5be4290c1c17152f4d1ee480b67af"
       }
     }
   }

@@ -42,3 +42,5 @@ All project cards open interactive games. `traffic-tycoon/play.html` and `mini-g
 Regenerate the two companions in the private engine with `node scripts/build-portfolio-games.mjs`, after verifying the existing production receipts. Copy the generated HTML only; preserve raw SHA identities. This does not establish new device or SDK acceptance.
 
 Live companions present each game in a scaled phone frame. Portrait/Landscape changes the simulated viewport without reloading the game; the back link returns to the showcase. The raw production HTML is unchanged.
+
+Each simulator has Screen size presets (320×568, 390×844, 430×932 and 768×1024), Portrait/Landscape controls, and Custom dimensions from 240 to 1920 CSS pixels per side. Changing size resizes the same iframe; it does not restart the game. The preview scales to fit the browser window. These are viewport presets, not hardware emulation.
