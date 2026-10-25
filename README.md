@@ -10,13 +10,6 @@ This repository contains the public Tora portfolio website only. GitHub Pages pu
 
 The main Tora product/engine project is separate and must remain private. Its source, credentials and development artifacts are not included here.
 
-## Preview locally
-
-```bash
-python3 -m http.server 8080
-```
-
-Open http://127.0.0.1:8080.
 
 ## Edit
 
