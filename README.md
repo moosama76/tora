@@ -6,7 +6,9 @@ A static website: HTML, CSS, JavaScript and local media. No build step, tracking
 
 ## Hosting
 
-This repository must remain private. GitHub Pages can publish the `main` branch from the repository root when the owning account has an eligible plan. `.nojekyll` preserves the static files directly. Once Pages is enabled, later pushes to `main` update the website. The published portfolio is public; the repository source remains private.
+This repository contains the public Tora portfolio website only. GitHub Pages publishes the `main` branch from the repository root. `.nojekyll` preserves the static files directly; later pushes to `main` update the website.
+
+The main Tora product/engine project is separate and must remain private. Its source, credentials and development artifacts are not included here.
 
 ## Preview locally
 
