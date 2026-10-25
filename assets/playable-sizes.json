@@ -1,0 +1,20 @@
+{
+  "unit": "KB = 1,000 bytes",
+  "measurement": "Complete standalone Unity HTML including embedded resources; not video file sizes.",
+  "artifacts": {
+    "traffic": {
+      "title": "Traffic Tycoon",
+      "path": "dist/traffic-tycoon/unity/index.html",
+      "htmlBytes": 332228,
+      "sha256": "a2fa91a7a05cc5a146aeb443c23fd6e124ae28bad88ce6ebbf9b19d45dcb499a",
+      "sizeLabel": "332.2 KB"
+    },
+    "golf": {
+      "title": "Mini Golf Challenge",
+      "path": "dist/mini-golf/unity/index.html",
+      "htmlBytes": 707170,
+      "sha256": "b8c49927705d09a4021fda4bfdf598c19d7cdfc4aeed2fecb7827e90f905f10c",
+      "sizeLabel": "707.2 KB"
+    }
+  }
+}
