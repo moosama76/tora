@@ -35,3 +35,9 @@ The size badges describe the complete standalone playable HTML, not the MP4 reco
 - Surreal illustrations: original AI-generated illustrations, not licensed franchise artwork.
 - Manrope font: SIL Open Font License; see `assets/manrope-OFL.txt`.
 - Gameplay screenshots and recordings: Tora portfolio work using Kenney assets; original pack provenance remains in the private development project. These recordings are not third-party campaign endorsements.
+
+## Play Beat the Market
+
+`beat-market/play.html` is the playable browser companion, with an explicit development MRAID host. `beat-market/index.html` is the matching raw standalone creative and requires an actual host. This is an original-branded fictional trading portfolio demo, not an authorized financial campaign or native-approved Unity production export. It makes no external data requests, executes no real trades and opens no app/store destination.
+
+Rebuild in the private engine with `node scripts/beat-market/build-web-preview.mjs`, copy only the two generated HTML files, refresh the screenshot/size identities, test, then push this website repository. No engine source or credentials belong in this public repository.

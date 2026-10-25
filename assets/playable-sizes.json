@@ -1,6 +1,6 @@
 {
   "unit": "KB = 1,000 bytes",
-  "measurement": "Complete standalone Unity HTML including embedded resources; not video file sizes.",
+  "measurement": "Complete standalone creative HTML including embedded resources; not video sizes. Browser companion bytes and build status are separate where applicable.",
   "artifacts": {
     "traffic": {
       "title": "Traffic Tycoon",
@@ -15,6 +15,19 @@
       "htmlBytes": 707170,
       "sha256": "b8c49927705d09a4021fda4bfdf598c19d7cdfc4aeed2fecb7827e90f905f10c",
       "sizeLabel": "707.2 KB"
+    },
+    "beat-market": {
+      "title": "Beat the Market",
+      "path": "beat-market/index.html",
+      "htmlBytes": 283902,
+      "sha256": "7751a3ff8eaa61f5a79db3b14b50bd38984f8ecf7ea176a93eccca0c42b24191",
+      "sizeLabel": "283.9 KB",
+      "status": "Portfolio concept; not native-approved production",
+      "browserCompanion": {
+        "path": "beat-market/play.html",
+        "htmlBytes": 381825,
+        "sha256": "4ec20c2487763712ba4f9af67ab470de34cbb16fe42cf96652d52b5780389a1f"
+      }
     }
   }
 }

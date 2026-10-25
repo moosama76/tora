@@ -1,0 +1,3 @@
+
+# Published standalone creatives must retain their exact build hashes.
+/beat-market/*.html -text -whitespace
