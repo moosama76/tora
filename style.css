@@ -49,3 +49,5 @@ html{overflow-x:clip}.hero{overflow:visible}.hero-art{right:-3%}.about{overflow:
 .about-art{isolation:isolate}
 .about-art:before{content:'';position:absolute;inset:8% 12% 6% -25%;background:#fff9ed;border-radius:32% 54% 24% 51% / 54% 25% 55% 34%;transform:rotate(-13deg);z-index:-1;pointer-events:none}
 @media(max-width:760px){.hero-copy:before{inset:-33px -15px -35px -90px;border-radius:15% 31% 37% 20% / 22% 24% 36% 26%;transform:rotate(-2deg)}.about-art:before{inset:8% 8% 8% -20%}}
+
+.project-rift{width:82%;margin:110px 0 0 auto;position:relative}.project-rift .project-image{aspect-ratio:2.05;background:#0a2023;transform:rotate(1.3deg)}.project-rift .project-image img{object-fit:contain;object-position:center}.project-rift:before{content:'a little magic goes a long way ↘';position:absolute;left:-150px;top:30%;width:130px;font:italic 21px Georgia,serif;color:#ffc3b2;transform:rotate(-8deg)}@media(max-width:760px){.project-rift{width:100%;margin:100px 0 0}.project-rift:before{left:8px;top:-48px;width:auto;font-size:17px}.project-rift .project-image{aspect-ratio:1.8}.project-rift .project-heading{flex-wrap:wrap;gap:7px}}

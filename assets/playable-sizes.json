@@ -1,5 +1,5 @@
 {
-  "unit": "KB = 1,000 bytes",
+  "unit": "Decimal units: KB =1,000bytes; MB =1,000,000bytes",
   "measurement": "Complete standalone creative HTML including embedded resources; not video sizes. Browser companion bytes and build status are separate where applicable.",
   "artifacts": {
     "traffic": {
@@ -14,36 +14,70 @@
         "sha256": "f5357afeed176380e86abb83a514bf6c65cc90155e19cf92b1bc64d375111e43"
       },
       "defaultOrientation": "landscape",
-      "defaultScreenSize": "large"
+      "defaultScreenSize": "large",
+      "thumbnail": {
+        "path": "assets/traffic.png",
+        "bytes": 316978,
+        "sha256": "c9c3c0b8af5d4e940a4bee5ba5668322aef917fbb6629f176c1fa26bd8a709c0"
+      }
     },
     "golf": {
       "title": "Mini Golf Challenge",
       "path": "mini-golf/index.html",
-      "htmlBytes": 707597,
-      "sha256": "4ed8d8b21f3dcbe1d9916dc5d7d2b374c524d671843d8d912ab7d2b557f0df5d",
-      "sizeLabel": "707.6 KB",
+      "htmlBytes": 708523,
+      "sha256": "ff286a475e8e856e0e9c0ff4ae08b9b4724baea9f3ad1d28c074ec4c4a54dfe7",
+      "sizeLabel": "708.5 KB",
       "browserCompanion": {
         "path": "mini-golf/play.html",
-        "htmlBytes": 954225,
-        "sha256": "cd0e8be893619c788d1b81b8bbe420ffad49c0b2f5e67c04d9b3f8dbee76f62f"
+        "htmlBytes": 955461,
+        "sha256": "1f8e64979bb742cf98048c40cdd0711de58abdb54a3a06eb95df79364664fe81"
       },
       "defaultOrientation": "portrait",
-      "defaultScreenSize": "large"
+      "defaultScreenSize": "large",
+      "thumbnail": {
+        "path": "assets/golf-v3.png",
+        "bytes": 201481,
+        "sha256": "267731c27b17bb4ab6015a9602ceced8b7dac6262e5faf4c0a4803d251f63fd3"
+      }
     },
     "beat-market": {
       "title": "Beat the Market",
       "path": "beat-market/index.html",
-      "htmlBytes": 283902,
-      "sha256": "7751a3ff8eaa61f5a79db3b14b50bd38984f8ecf7ea176a93eccca0c42b24191",
-      "sizeLabel": "283.9 KB",
+      "htmlBytes": 284216,
+      "sha256": "5ffa2bd19f976ae17f8afc521e379f50289e8358f31ebd18c4f51d9a4fbb47f8",
+      "sizeLabel": "284.2 KB",
       "status": "Portfolio concept; not native-approved production",
       "browserCompanion": {
         "path": "beat-market/play.html",
-        "htmlBytes": 388744,
-        "sha256": "933f0be61af9a3e34c620ca6a0df70aa6d363b6812fb0468b3a59dff86d95c0b"
+        "htmlBytes": 389164,
+        "sha256": "1a790ff0e76bef3cfe57308f28ee089b219d568db6d5194c56dbdcff78c81315"
       },
       "defaultOrientation": "portrait",
-      "defaultScreenSize": "large"
+      "defaultScreenSize": "large",
+      "thumbnail": {
+        "path": "assets/beat-market-toggle.png",
+        "bytes": 108285,
+        "sha256": "e02eb61840b7433712cb821103616d63748db1c70d6da6df2d4a7a268a19394d"
+      }
+    },
+    "rift-guard": {
+      "title": "Riftguard",
+      "path": "rift-guard/index.html",
+      "browserCompanion": {
+        "path": "rift-guard/play.html",
+        "htmlBytes": 3664000,
+        "sha256": "1ae5710457ef13bbb106498d20e25076942a4016409096cc5970f98ac6b0e397"
+      },
+      "defaultOrientation": "landscape",
+      "defaultScreenSize": "large",
+      "htmlBytes": 2739960,
+      "sha256": "3da388ad98186ad3c2365008df3ccaff16ecd74fa265b8fb44b49a2fa0b1294b",
+      "sizeLabel": "2.74 MB",
+      "thumbnail": {
+        "path": "assets/riftguard.png",
+        "bytes": 837300,
+        "sha256": "4736e95548b62bb43776d643d3913cacfac1d023f1823aaeb80ca6a33a413d9f"
+      }
     }
   }
 }

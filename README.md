@@ -37,9 +37,9 @@ Rebuild in the private engine with `node scripts/beat-market/build-web-preview.m
 
 ## Live games
 
-All project cards open interactive games. `traffic-tycoon/play.html` and `mini-golf/play.html` supply explicit browser test hosts around exact production exports. Their matching `index.html` files require real hosts. Browser CTA requests are recorded and show a demo message, without opening stores. Videos and the video player have been removed from this website.
+All four project cards open interactive games. `traffic-tycoon/play.html` and `mini-golf/play.html` supply explicit browser test hosts around exact production exports. Their matching `index.html` files require real hosts. Browser CTA requests are recorded and show a demo message, without opening stores. Videos and the video player have been removed from this website.
 
-Regenerate the two companions in the private engine with `node scripts/build-portfolio-games.mjs`, after verifying the existing production receipts. Copy the generated HTML only; preserve raw SHA identities. This does not establish new device or SDK acceptance.
+Regenerate the production-game companions in the private engine with `node scripts/build-portfolio-games.mjs`, after verifying the existing production receipts. Copy the generated HTML only; preserve raw SHA identities. This does not establish new device or SDK acceptance.
 
 Live companions present each game in a scaled phone frame. Portrait/Landscape changes the simulated viewport without reloading the game; the back link returns to the showcase. The raw production HTML is unchanged.
 
@@ -47,4 +47,8 @@ Each simulator has Screen size presets (320×568, 390×844, 430×932 and 768×10
 
 ## Preview orientation
 
-All previews start at Large phone (430×932, or932×430 in landscape). Traffic Tycoon starts in landscape for its wide city. Mini Golf Challenge and Beat the Market start in portrait. Screen-size and orientation controls remain available and resize the same playable without resetting it. These defaults belong to the browser companion, not an SDK orientation lock.
+All previews start at Large phone (430×932, or932×430 in landscape). Traffic Tycoon and Riftguard start in landscape. Mini Golf Challenge and Beat the Market start in portrait. Screen-size and orientation controls remain available and resize the same playable without resetting it. These defaults belong to the browser companion, not an SDK orientation lock.
+
+## Play Riftguard
+
+`rift-guard/play.html` wraps the exact standalone `rift-guard/index.html` in the explicit portfolio mock host. It defaults to Large phone, landscape (932×430). Original generated artwork, licensed sampled audio and a purpose-built Canvas2D runtime form a fictional forest-defense demo. The deliberate terminal CTA records demo intent only; no real game destination is configured. Static/browser checks are separate from official SDK or campaign acceptance. Rebuild the native artifact in the private engine, then regenerate companions with `node scripts/build-portfolio-games.mjs`. No private engine source belongs here.
