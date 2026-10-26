@@ -10,9 +10,10 @@
       "sizeLabel": "332.2 KB",
       "browserCompanion": {
         "path": "traffic-tycoon/play.html",
-        "htmlBytes": 453713,
-        "sha256": "8328c6f9ada781750722a6060d15d42a9034dbdfc1739ba8af3a8ccad4576279"
-      }
+        "htmlBytes": 453712,
+        "sha256": "53936efdcb78effad6e0db8b931791ac9f147e32a263d41fea47725a8eb99435"
+      },
+      "defaultOrientation": "landscape"
     },
     "golf": {
       "title": "Mini Golf Challenge",
@@ -24,7 +25,8 @@
         "path": "mini-golf/play.html",
         "htmlBytes": 953657,
         "sha256": "4fec2d37b39227cd64b0a45e1a14bff6c1fa83dc70e7f39609d34d29583870c8"
-      }
+      },
+      "defaultOrientation": "portrait"
     },
     "beat-market": {
       "title": "Beat the Market",
@@ -37,7 +39,8 @@
         "path": "beat-market/play.html",
         "htmlBytes": 388744,
         "sha256": "862153a684062a4b036127a56eaf039327e5be4290c1c17152f4d1ee480b67af"
-      }
+      },
+      "defaultOrientation": "portrait"
     }
   }
 }

@@ -44,3 +44,7 @@ Regenerate the two companions in the private engine with `node scripts/build-por
 Live companions present each game in a scaled phone frame. Portrait/Landscape changes the simulated viewport without reloading the game; the back link returns to the showcase. The raw production HTML is unchanged.
 
 Each simulator has Screen size presets (320×568, 390×844, 430×932 and 768×1024), Portrait/Landscape controls, and Custom dimensions from 240 to 1920 CSS pixels per side. Changing size resizes the same iframe; it does not restart the game. The preview scales to fit the browser window. These are viewport presets, not hardware emulation.
+
+## Preview orientation
+
+Traffic Tycoon starts in landscape for its wide city. Mini Golf Challenge and Beat the Market start in portrait. Screen-size and orientation controls remain available and resize the same playable without resetting it. These defaults belong to the browser companion, not an SDK orientation lock.
