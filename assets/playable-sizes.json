@@ -11,22 +11,24 @@
       "browserCompanion": {
         "path": "traffic-tycoon/play.html",
         "htmlBytes": 453712,
-        "sha256": "53936efdcb78effad6e0db8b931791ac9f147e32a263d41fea47725a8eb99435"
+        "sha256": "f5357afeed176380e86abb83a514bf6c65cc90155e19cf92b1bc64d375111e43"
       },
-      "defaultOrientation": "landscape"
+      "defaultOrientation": "landscape",
+      "defaultScreenSize": "large"
     },
     "golf": {
       "title": "Mini Golf Challenge",
       "path": "mini-golf/index.html",
-      "htmlBytes": 707170,
-      "sha256": "b8c49927705d09a4021fda4bfdf598c19d7cdfc4aeed2fecb7827e90f905f10c",
-      "sizeLabel": "707.2 KB",
+      "htmlBytes": 707597,
+      "sha256": "4ed8d8b21f3dcbe1d9916dc5d7d2b374c524d671843d8d912ab7d2b557f0df5d",
+      "sizeLabel": "707.6 KB",
       "browserCompanion": {
         "path": "mini-golf/play.html",
-        "htmlBytes": 953657,
-        "sha256": "4fec2d37b39227cd64b0a45e1a14bff6c1fa83dc70e7f39609d34d29583870c8"
+        "htmlBytes": 954225,
+        "sha256": "cd0e8be893619c788d1b81b8bbe420ffad49c0b2f5e67c04d9b3f8dbee76f62f"
       },
-      "defaultOrientation": "portrait"
+      "defaultOrientation": "portrait",
+      "defaultScreenSize": "large"
     },
     "beat-market": {
       "title": "Beat the Market",
@@ -38,9 +40,10 @@
       "browserCompanion": {
         "path": "beat-market/play.html",
         "htmlBytes": 388744,
-        "sha256": "862153a684062a4b036127a56eaf039327e5be4290c1c17152f4d1ee480b67af"
+        "sha256": "933f0be61af9a3e34c620ca6a0df70aa6d363b6812fb0468b3a59dff86d95c0b"
       },
-      "defaultOrientation": "portrait"
+      "defaultOrientation": "portrait",
+      "defaultScreenSize": "large"
     }
   }
 }

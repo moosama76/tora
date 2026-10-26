@@ -47,4 +47,4 @@ Each simulator has Screen size presets (320×568, 390×844, 430×932 and 768×10
 
 ## Preview orientation
 
-Traffic Tycoon starts in landscape for its wide city. Mini Golf Challenge and Beat the Market start in portrait. Screen-size and orientation controls remain available and resize the same playable without resetting it. These defaults belong to the browser companion, not an SDK orientation lock.
+All previews start at Large phone (430×932, or932×430 in landscape). Traffic Tycoon starts in landscape for its wide city. Mini Golf Challenge and Beat the Market start in portrait. Screen-size and orientation controls remain available and resize the same playable without resetting it. These defaults belong to the browser companion, not an SDK orientation lock.
