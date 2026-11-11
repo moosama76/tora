@@ -2,6 +2,8 @@
 
 Creative technology and playable-ad portfolio.
 
+The navigation links to the public Tora editor demo over HTTPS. The current demo uses a temporary Cloudflare tunnel and remains available while its backend computer and tunnel are running. Each visitor receives an isolated project. Permanent independent hosting is pending a connected backend hosting account.
+
 A static website: HTML, CSS, JavaScript and local media. No build step, tracking, external fonts or API service is required.
 
 ## Hosting
