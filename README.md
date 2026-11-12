@@ -2,7 +2,7 @@
 
 Creative technology and playable-ad portfolio.
 
-The navigation links to the public Tora editor demo over HTTPS. The current demo uses a temporary Cloudflare tunnel and remains available while its backend computer and tunnel are running. Each visitor receives an isolated project. Permanent independent hosting is pending a connected backend hosting account.
+The navigation opens the native Tora editor at `editor/`, hosted directly on GitHub Pages. It works without a local server or tunnel. Projects save in IndexedDB on the visitor’s device; there is no account or cross-device synchronization. Export playable HTML to keep a standalone playable copy. Ding & Dang and Golden Hour are reproducible starter projects, not a migration of past local sessions.
 
 A static website: HTML, CSS, JavaScript and local media. No build step, tracking, external fonts or API service is required.
 
@@ -54,3 +54,7 @@ All previews start at Large phone (430×932, or932×430 in landscape). Traffic T
 ## Play Riftguard
 
 `rift-guard/play.html` wraps the exact standalone `rift-guard/index.html` in the explicit portfolio mock host. It defaults to Large phone, landscape (932×430). Original generated artwork, licensed sampled audio and a purpose-built Canvas2D runtime form a fictional forest-defense demo. The deliberate terminal CTA records demo intent only; no real game destination is configured. Static/browser checks are separate from official SDK or campaign acceptance. Rebuild the native artifact in the private engine, then regenerate companions with `node scripts/build-portfolio-games.mjs`. No private engine source belongs here.
+
+## Hosted editor updates
+
+Build from the private engine checkout with `node scripts/build-pages-editor.mjs <website-checkout>/editor`, then run `npm run build:pages-editor` and `npm run test:pages-editor` in the engine checkout. Commit the generated `editor/` files and portfolio link in this website repository and push `main`. Only deployable browser assets are published; no backend, credentials, or project-store history is included. Browser exports are standalone drafts, not network-qualified ads.

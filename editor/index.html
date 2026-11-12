@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" data-editor-theme="dark">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>Tora — Scene editor</title>
+<script>try{document.documentElement.dataset.editorTheme=localStorage.getItem('tora-editor-theme')==='light'?'light':'dark';}catch{}</script>
+<link rel="stylesheet" href="./editor.css">
+</head>
+<body class="tora-editor engine-layout">
+<header class="engine-toolbar">
+  <img class="tora-wordmark" src="./brand/tora-wordmark.svg" alt="Tora">
+  <details id="project-details"><summary>Project</summary>
+    <form id="open"><label>Project ID<input id="project" required></label><button>Open</button></form>
+    <p><a href="?project=ding-dang">Ding & Dang · native authoring</a></p>
+    <p><a href="?project=golden-hour">Golden Hour · tap to score</a> · <a href="../">Back to Tora</a></p><p id="identity">No composition loaded</p>
+    <p>Your edits are saved in this browser on this device. Export playable HTML to keep a playable copy. Ad-network qualification is separate.</p><p id="authoring-status"></p>
+  </details>
+  <nav aria-label="Editor actions"><button id="save-scene">Save</button><button id="export-playable">Export playable HTML</button><button id="undo-scene" title="Undo">Undo</button><button id="redo-scene" title="Redo">Redo</button></nav>
+  <nav class="play-controls" aria-label="Play controls"><span id="mode-label">Edit mode</span><button id="start" disabled>Play</button><button id="replay" hidden disabled>Restart</button></nav>
+  <button id="theme-toggle" type="button">Dark</button>
+  <p id="status" role="status" hidden>Open a project</p><p id="error" role="alert"></p>
+</header>
+<main>
+  <aside id="hierarchy-panel" aria-label="Scene hierarchy">
+    <div class="panel-heading"><h2>Hierarchy</h2><span class="panel-caption">Scene objects</span></div>
+    <div class="hierarchy-tools"><input id="hierarchy-search" type="search" placeholder="Find an object…" aria-label="Search hierarchy" autocomplete="off"><button id="clear-hierarchy-search" title="Clear search" aria-label="Clear hierarchy search" hidden>×</button></div>
+    <nav id="scene-hierarchy" aria-label="Scenes and objects"></nav>
+    <div class="hierarchy-footer"><label><input id="show-runtime-objects" type="checkbox"> Show runtime cells</label><button id="global-settings" type="button">Project settings</button></div>
+  </aside>
+  <section id="viewport-panel" aria-label="Playable viewport">
+    <h2>Scene</h2><div class="viewport-tools"><button id="portrait">Portrait</button><button id="landscape">Landscape</button></div>
+    <div id="scene-stage"><div id="phone"></div></div>
+    <div class="viewport-footer"><span>Click an object to edit</span><span>Browser preview</span></div>
+  </section>
+  <section id="inspector" aria-label="Object properties">
+    <div class="panel-heading"><h2>Properties</h2><span class="panel-caption">Live editing</span></div>
+    <p id="edit-status" role="status">Select an object in the hierarchy.</p><p id="edit-error" role="alert"></p>
+    <div id="controls"></div><div id="backend-status"></div>
+  </section>
+  <aside id="runtime-diagnostics"><details><summary>Preview diagnostics</summary>
+    <label><input id="visible" type="checkbox" checked>Host visible</label>
+    <button id="export-artwork">Export selected artwork PNG</button>
+    <h2>Runtime</h2><pre id="state"></pre><h2>CTA events</h2><pre id="cta">[]</pre><h2>Messages</h2><pre id="messages"></pre>
+  </details></aside>
+</main>
+<script type="module" src="./pages.js"></script>
+</body></html>
